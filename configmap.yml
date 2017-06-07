@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: special-config
+  namespace: default
+data:
+  app_port: "8081"
+  mysql_port: "3306"
+  mysql_host: emysql
+  mysql_db: docker
+  mysql_user: root
+  
